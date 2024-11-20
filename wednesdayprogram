@@ -1,0 +1,18 @@
+# Simple Greeting and Calculation Program
+
+# Greet the user
+print("Welcome to the Simple Calculator!")
+
+# Get user input
+name = input("What's your name? ")
+print(f"Hi {name}, let's do a quick calculation!")
+
+# Perform a basic calculation
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Add the numbers
+result = num1 + num2
+
+# Display the result
+print(f"The sum of {num1} and {num2} is {result}. Thanks for using the calculator, {name}!")
